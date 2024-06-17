@@ -6,8 +6,6 @@ You can get the paper from [here](https://doi.org/10.1145/3652583.3658076).
 
 In this paper, we propose a novel graph convolution network with a POS-aware filter and context enhancement mechanism (GCN-PFCE). Specifically, a gating unit controlled by POS, which can learn the correlation between POS and keyword distribution, is added after each graph convolution layer. Besides, a parallel structure between BERT and GCN is implemented to enhance the context understanding ability of GCN-based methods in a better way. The proposed model achieves significant improvement over competitive baseline methods on ACE2005 dataset.
 
-**In order to make the code easy to understand, we are integrating the code. We will try our best to provide the complete source code before the conference starts.**
-
 ## Datasets&DataFormat
 
 In this paper, we use ACE2005  to implement all the experiments. It can be download from: The ACE 2005 dataset can be downloaded from：[ACE 2005 Multilingual Training Corpus - Linguistic Data Consortium](https://catalog.ldc.upenn.edu/LDC2006T06)
@@ -108,12 +106,16 @@ The proposed model is trained in three stages.(We will provide specific running 
 
 1、Finetune bert:
 
+python ./full_model/finetune_bert.py
+
 2、Train the other components in the model except for the context enhancement module:
+
+python ./-CE/main.py
 
 3、The complete model is initialized with the parameters obtained in the first two
 stages and undergoes 20 epochs of training:
 
-Test:
+python ./full_model/main.py
 
 ## Computation Consumption
 

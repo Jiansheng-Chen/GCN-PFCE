@@ -1,0 +1,145 @@
+2023-09-27 19:32:49,316 - statisticNew - INFO - 
+Args: 
+2023-09-27 19:32:49,318 - statisticNew - INFO - train: True
+2023-09-27 19:32:49,318 - statisticNew - INFO - tag_schema: iob
+2023-09-27 19:32:49,319 - statisticNew - INFO - batch_size: 20
+2023-09-27 19:32:49,320 - statisticNew - INFO - lr: 1e-05
+2023-09-27 19:32:49,320 - statisticNew - INFO - lr_sharp_decay: 0
+2023-09-27 19:32:49,321 - statisticNew - INFO - lr_min: 1e-05
+2023-09-27 19:32:49,321 - statisticNew - INFO - label_weights: 5
+2023-09-27 19:32:49,322 - statisticNew - INFO - optimizer: Adam
+2023-09-27 19:32:49,323 - statisticNew - INFO - weight_decay: 1e-05
+2023-09-27 19:32:49,323 - statisticNew - INFO - epoch: 15
+2023-09-27 19:32:49,324 - statisticNew - INFO - cuda: 0
+2023-09-27 19:32:49,324 - statisticNew - INFO - num_steps: 50
+2023-09-27 19:32:49,325 - statisticNew - INFO - word_embed_dim: 100
+2023-09-27 19:32:49,325 - statisticNew - INFO - bio_embed_dim: 25
+2023-09-27 19:32:49,326 - statisticNew - INFO - pos_embed_dim: 25
+2023-09-27 19:32:49,327 - statisticNew - INFO - position_embed_dim: 0
+2023-09-27 19:32:49,327 - statisticNew - INFO - dep_embed_dim: 25
+2023-09-27 19:32:49,328 - statisticNew - INFO - rnn_hidden: 100
+2023-09-27 19:32:49,328 - statisticNew - INFO - rnn_layers: 1
+2023-09-27 19:32:49,329 - statisticNew - INFO - rnn_dropout: 0.5
+2023-09-27 19:32:49,330 - statisticNew - INFO - pooling: avg
+2023-09-27 19:32:49,330 - statisticNew - INFO - gcn_dim: 150
+2023-09-27 19:32:49,331 - statisticNew - INFO - num_layers: 2
+2023-09-27 19:32:49,331 - statisticNew - INFO - gcn_dropout: 0.5
+2023-09-27 19:32:49,332 - statisticNew - INFO - bert_dim: 768
+2023-09-27 19:32:49,333 - statisticNew - INFO - map_file: maps.pkl
+2023-09-27 19:32:49,333 - statisticNew - INFO - result_path: result
+2023-09-27 19:32:49,334 - statisticNew - INFO - emb_file: 100.utf8
+2023-09-27 19:32:49,334 - statisticNew - INFO - train_file: data_doc/train_ee.json
+2023-09-27 19:32:49,335 - statisticNew - INFO - dev_file: data_doc/dev_ee.json
+2023-09-27 19:32:49,335 - statisticNew - INFO - test_file: data_doc/test_ee.json
+2023-09-27 19:32:49,336 - statisticNew - INFO - log_name: test_finetune_bert_5_cla
+2023-09-27 19:32:49,336 - statisticNew - INFO - seed: 1023
+2023-09-27 19:32:49,337 - statisticNew - INFO - bert_out_dim: 100
+2023-09-27 19:32:49,338 - statisticNew - INFO - 
+
+2023-09-27 19:33:03,861 - statisticNew - INFO - Epoch: 1 / 15 ：
+2023-09-27 19:33:03,862 - statisticNew - INFO - epoch 1, lr: [1e-05] 
+2023-09-27 19:33:16,208 - statisticNew - INFO - epoch 1, loss : 1.4368737400681884
+2023-09-27 19:33:16,847 - statisticNew - INFO - epoch: 1, info: accuracy:  95.33%; precision:  43.45%; recall:  48.33%; FB1:  45.76
+2023-09-27 19:33:16,850 - statisticNew - INFO - epoch 1, f1 : 45.76
+2023-09-27 19:33:20,427 - statisticNew - INFO - epoch 1, MAX_F1: 45.76
+
+2023-09-27 19:33:20,428 - statisticNew - INFO - Epoch: 2 / 15 ：
+2023-09-27 19:33:20,429 - statisticNew - INFO - epoch 2, lr: [1e-05] 
+2023-09-27 19:33:31,411 - statisticNew - INFO - epoch 2, loss : 0.6466343567511181
+2023-09-27 19:33:32,176 - statisticNew - INFO - epoch: 2, info: accuracy:  97.11%; precision:  63.00%; recall:  72.71%; FB1:  67.50
+2023-09-27 19:33:32,179 - statisticNew - INFO - epoch 2, f1 : 67.5
+2023-09-27 19:33:36,091 - statisticNew - INFO - epoch 2, MAX_F1: 67.5
+
+2023-09-27 19:33:36,092 - statisticNew - INFO - Epoch: 3 / 15 ：
+2023-09-27 19:33:36,092 - statisticNew - INFO - epoch 3, lr: [1e-05] 
+2023-09-27 19:33:47,115 - statisticNew - INFO - epoch 3, loss : 0.42690462913410165
+2023-09-27 19:33:47,795 - statisticNew - INFO - epoch: 3, info: accuracy:  97.39%; precision:  66.16%; recall:  81.04%; FB1:  72.85
+2023-09-27 19:33:47,800 - statisticNew - INFO - epoch 3, f1 : 72.85
+2023-09-27 19:33:51,052 - statisticNew - INFO - epoch 3, MAX_F1: 72.85
+
+2023-09-27 19:33:51,055 - statisticNew - INFO - Epoch: 4 / 15 ：
+2023-09-27 19:33:51,057 - statisticNew - INFO - epoch 4, lr: [1e-05] 
+2023-09-27 19:34:02,064 - statisticNew - INFO - epoch 4, loss : 0.31353558232018974
+2023-09-27 19:34:02,815 - statisticNew - INFO - epoch: 4, info: accuracy:  97.32%; precision:  64.76%; recall:  82.71%; FB1:  72.64
+2023-09-27 19:34:02,819 - statisticNew - INFO - epoch 4, f1 : 72.64
+2023-09-27 19:34:02,822 - statisticNew - INFO - epoch 4, MAX_F1: 72.85
+
+2023-09-27 19:34:02,824 - statisticNew - INFO - Epoch: 5 / 15 ：
+2023-09-27 19:34:02,826 - statisticNew - INFO - epoch 5, lr: [1e-05] 
+2023-09-27 19:34:13,816 - statisticNew - INFO - epoch 5, loss : 0.24807968721897514
+2023-09-27 19:34:14,471 - statisticNew - INFO - epoch: 5, info: accuracy:  97.75%; precision:  70.22%; recall:  81.04%; FB1:  75.24
+2023-09-27 19:34:14,473 - statisticNew - INFO - epoch 5, f1 : 75.24
+2023-09-27 19:34:18,129 - statisticNew - INFO - epoch 5, MAX_F1: 75.24
+
+2023-09-27 19:34:18,131 - statisticNew - INFO - Epoch: 6 / 15 ：
+2023-09-27 19:34:18,131 - statisticNew - INFO - epoch 6, lr: [1e-05] 
+2023-09-27 19:34:29,135 - statisticNew - INFO - epoch 6, loss : 0.19987266418742544
+2023-09-27 19:34:29,844 - statisticNew - INFO - epoch: 6, info: accuracy:  97.82%; precision:  70.30%; recall:  81.88%; FB1:  75.65
+2023-09-27 19:34:29,846 - statisticNew - INFO - epoch 6, f1 : 75.65
+2023-09-27 19:34:34,297 - statisticNew - INFO - epoch 6, MAX_F1: 75.65
+
+2023-09-27 19:34:34,299 - statisticNew - INFO - Epoch: 7 / 15 ：
+2023-09-27 19:34:34,299 - statisticNew - INFO - epoch 7, lr: [1e-05] 
+2023-09-27 19:34:45,291 - statisticNew - INFO - epoch 7, loss : 0.16524620653118616
+2023-09-27 19:34:45,943 - statisticNew - INFO - epoch: 7, info: accuracy:  97.78%; precision:  70.76%; recall:  79.17%; FB1:  74.73
+2023-09-27 19:34:45,946 - statisticNew - INFO - epoch 7, f1 : 74.73
+2023-09-27 19:34:45,948 - statisticNew - INFO - epoch 7, MAX_F1: 75.65
+
+2023-09-27 19:34:45,949 - statisticNew - INFO - Epoch: 8 / 15 ：
+2023-09-27 19:34:45,951 - statisticNew - INFO - epoch 8, lr: [1e-05] 
+2023-09-27 19:34:56,953 - statisticNew - INFO - epoch 8, loss : 0.13744284045871025
+2023-09-27 19:34:57,822 - statisticNew - INFO - epoch: 8, info: accuracy:  97.61%; precision:  67.76%; recall:  81.88%; FB1:  74.15
+2023-09-27 19:34:57,825 - statisticNew - INFO - epoch 8, f1 : 74.15
+2023-09-27 19:34:57,826 - statisticNew - INFO - epoch 8, MAX_F1: 75.65
+
+2023-09-27 19:34:57,827 - statisticNew - INFO - Epoch: 9 / 15 ：
+2023-09-27 19:34:57,828 - statisticNew - INFO - epoch 9, lr: [1e-05] 
+2023-09-27 19:35:08,830 - statisticNew - INFO - epoch 9, loss : 0.11479395415265987
+2023-09-27 19:35:09,480 - statisticNew - INFO - epoch: 9, info: accuracy:  97.76%; precision:  70.51%; recall:  80.21%; FB1:  75.05
+2023-09-27 19:35:09,483 - statisticNew - INFO - epoch 9, f1 : 75.05
+2023-09-27 19:35:09,483 - statisticNew - INFO - epoch 9, MAX_F1: 75.65
+
+2023-09-27 19:35:09,484 - statisticNew - INFO - Epoch: 10 / 15 ：
+2023-09-27 19:35:09,485 - statisticNew - INFO - epoch 10, lr: [1e-05] 
+2023-09-27 19:35:20,468 - statisticNew - INFO - epoch 10, loss : 0.09431690012139303
+2023-09-27 19:35:21,160 - statisticNew - INFO - epoch: 10, info: accuracy:  97.83%; precision:  71.93%; recall:  80.62%; FB1:  76.03
+2023-09-27 19:35:21,162 - statisticNew - INFO - epoch 10, f1 : 76.03
+2023-09-27 19:35:24,799 - statisticNew - INFO - epoch 10, MAX_F1: 76.03
+
+2023-09-27 19:35:24,801 - statisticNew - INFO - Epoch: 11 / 15 ：
+2023-09-27 19:35:24,801 - statisticNew - INFO - epoch 11, lr: [1e-05] 
+2023-09-27 19:35:35,776 - statisticNew - INFO - epoch 11, loss : 0.0803708237607354
+2023-09-27 19:35:36,587 - statisticNew - INFO - epoch: 11, info: accuracy:  97.63%; precision:  68.88%; recall:  79.79%; FB1:  73.94
+2023-09-27 19:35:36,590 - statisticNew - INFO - epoch 11, f1 : 73.94
+2023-09-27 19:35:36,591 - statisticNew - INFO - epoch 11, MAX_F1: 76.03
+
+2023-09-27 19:35:36,592 - statisticNew - INFO - Epoch: 12 / 15 ：
+2023-09-27 19:35:36,592 - statisticNew - INFO - epoch 12, lr: [1e-05] 
+2023-09-27 19:35:47,551 - statisticNew - INFO - epoch 12, loss : 0.07052098074353036
+2023-09-27 19:35:48,231 - statisticNew - INFO - epoch: 12, info: accuracy:  97.83%; precision:  71.89%; recall:  79.38%; FB1:  75.45
+2023-09-27 19:35:48,234 - statisticNew - INFO - epoch 12, f1 : 75.45
+2023-09-27 19:35:48,235 - statisticNew - INFO - epoch 12, MAX_F1: 76.03
+
+2023-09-27 19:35:48,237 - statisticNew - INFO - Epoch: 13 / 15 ：
+2023-09-27 19:35:48,239 - statisticNew - INFO - epoch 13, lr: [1e-05] 
+2023-09-27 19:35:59,223 - statisticNew - INFO - epoch 13, loss : 0.061720660996887784
+2023-09-27 19:36:00,043 - statisticNew - INFO - epoch: 13, info: accuracy:  97.44%; precision:  66.61%; recall:  81.04%; FB1:  73.12
+2023-09-27 19:36:00,046 - statisticNew - INFO - epoch 13, f1 : 73.12
+2023-09-27 19:36:00,047 - statisticNew - INFO - epoch 13, MAX_F1: 76.03
+
+2023-09-27 19:36:00,048 - statisticNew - INFO - Epoch: 14 / 15 ：
+2023-09-27 19:36:00,049 - statisticNew - INFO - epoch 14, lr: [1e-05] 
+2023-09-27 19:36:11,013 - statisticNew - INFO - epoch 14, loss : 0.052408747438249394
+2023-09-27 19:36:11,745 - statisticNew - INFO - epoch: 14, info: accuracy:  97.98%; precision:  74.70%; recall:  78.75%; FB1:  76.67
+2023-09-27 19:36:11,749 - statisticNew - INFO - epoch 14, f1 : 76.67
+2023-09-27 19:36:15,732 - statisticNew - INFO - epoch 14, MAX_F1: 76.67
+
+2023-09-27 19:36:15,735 - statisticNew - INFO - Epoch: 15 / 15 ：
+2023-09-27 19:36:15,737 - statisticNew - INFO - epoch 15, lr: [1e-05] 
+2023-09-27 19:36:26,700 - statisticNew - INFO - epoch 15, loss : 0.04587145370465738
+2023-09-27 19:36:27,431 - statisticNew - INFO - epoch: 15, info: accuracy:  97.77%; precision:  70.66%; recall:  79.79%; FB1:  74.95
+2023-09-27 19:36:27,436 - statisticNew - INFO - epoch 15, f1 : 74.95
+2023-09-27 19:36:27,439 - statisticNew - INFO - epoch 15, MAX_F1: 76.67
+
+2023-09-27 19:36:31,718 - statisticNew - INFO - 
+ resinfo accuracy:  97.59%; precision:  70.60%; recall:  75.12%; FB1:  72.79  F1: 72.79 
