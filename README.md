@@ -2,7 +2,7 @@
 
 This repository contains the code for ICMR 2024 paper **A Graph Convolution Network with a POS-aware Filter and Context Enhancement Mechanism for Event Detection.** 
 
-You can get the paper from [here](https://doi.org/10.1145/3652583.3658076).
+You can get the paper from https://doi.org/10.1145/3652583.3658076
 
 In this paper, we propose a novel graph convolution network with a POS-aware filter and context enhancement mechanism (GCN-PFCE). Specifically, a gating unit controlled by POS, which can learn the correlation between POS and keyword distribution, is added after each graph convolution layer. Besides, a parallel structure between BERT and GCN is implemented to enhance the context understanding ability of GCN-based methods in a better way. The proposed model achieves significant improvement over competitive baseline methods on ACE2005 dataset.
 
