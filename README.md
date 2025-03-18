@@ -102,7 +102,7 @@ More requirements are shown in requirements.txt
 
 ## Train&Test
 
-The proposed model is trained in three stages.(We will provide specific running commands later.)
+The proposed model is trained in three stages.
 
 1、Finetune bert:
 
@@ -116,6 +116,9 @@ python ./-CE/main.py
 stages and undergoes 20 epochs of training:
 
 python ./full_model/main.py
+
+./-CE/models/eegcned-master-pos-1.7-elu-wd1e-4.pkl and ./full_models/models/testlr0.005.pkl can be loaded for test
+./-CE/log/eegcned-master-pos-1.7-elu-wd1e-4.log and ./full_models/log/testlr0.005.log record the whole training process
 
 ## Computation Consumption
 
