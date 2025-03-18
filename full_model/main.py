@@ -254,7 +254,7 @@ if __name__ == "__main__":
     parser.add_argument('--tag_schema', default="iob", type=str)
     parser.add_argument('--batch_size', default=20, type=int)
     parser.add_argument('--lr', default=0.005, type=float)
-    parser.add_argument('--lr_bert', default=0.00001, type=float)
+    parser.add_argument('--lr_bert', default=0.000001, type=float)
     parser.add_argument('--lr_sharp_decay', default=0, type=int)
     parser.add_argument('--lr_min', default=0.00001, type=float)
     parser.add_argument('--label_weights', default=5, type=int)
@@ -263,7 +263,7 @@ if __name__ == "__main__":
     parser.add_argument('--epoch', default=20, type=int)
     parser.add_argument('--cuda', default=0, type=int)
 
-    #parser.add_argument('--num_steps', default=50, type=int)
+    
     parser.add_argument('--num_steps', default=50, type=int)
     parser.add_argument('--word_embed_dim', default=100, type=int)
     parser.add_argument('--bio_embed_dim', default=25, type=int)
